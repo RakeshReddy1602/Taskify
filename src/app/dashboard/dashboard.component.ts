@@ -29,12 +29,12 @@ export class DashboardComponent {
    */
   constructor(private router:Router,private dservice:DialogService){
     this.taskList = [
-      { id : 1,title: "Guide Me", description: "Project A", status: "To-Do" },
-      { id : 2,title: "To Do Task", description: "Project A", status: "To-Do" },
-      { id : 3,title: "Guide Me", description: "Project B", status: "In-Progress" },
-      { id : 4,title: "In Progress Task", description: "Project X", status: "In-Progress" },
-      { id : 5,title: "Guide Me", description: "Project Y", status: "Completed" },
-      { id : 6,title: "Completed Task", description: "Project Z", status: "Completed" },
+      { id : 1,title: "Enhance UI", description: "Enhance UI of project for better user experience", status: "To-Do" },
+      { id : 2,title: "Include Status Bin to User", description: "Include Status Bin feature to user as well to restore the deleted status", status: "To-Do" },
+      { id : 3,title: "Review UI", description: "Review the UI of the code", status: "In-Progress" },
+      { id : 4,title: "Review Perfomance", description: "Review the perfomance of website", status: "In-Progress" },
+      { id : 5,title: "Include Basic Features ", description: "Include Basic features like drag and drop,editing the tasks and status", status: "Completed" },
+      { id : 6,title: "Develop other necesaary features", description: "Develop Task and Status Editors,Task Log and Bin Features", status: "Completed" },
       
     ]
     // make storedTasks to obtain all the available tasks from taskList

@@ -139,7 +139,7 @@ export class StatusEditorComponent {
           localStorage.setItem('statusList',JSON.stringify(this.statusList));
 
           // display a confirmation toast message  
-          this.toastr.warning('Status <b> '+this.statusName+' </b> moved to Bin','Status Deleted',{timeOut:3000,easeTime:500,positionClass:'toast-top-right',enableHtml:true})
+          this.toastr.warning('Tasks belong to <b> '+this.statusName+' </b> moved to Bin','Status Deleted',{timeOut:3000,easeTime:500,positionClass:'toast-top-right',enableHtml:true})
         }
         this.router.navigate(['/dashboard']);
     });
